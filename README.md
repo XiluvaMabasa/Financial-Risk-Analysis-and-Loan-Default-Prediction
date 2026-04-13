@@ -106,7 +106,7 @@ The dashboard provides:
 - Financial behavior insights
 - Customer segmentation
 
-![Risk distribution](visualizations/Risk-count.jpeg)
+![Risk distribution](Financial-Risk-Analysis-and-Loan-Default-Prediction/Risk-count.jpeg)
 
 ### Business Recommendations
 - Tighten credit approval rules for high-risk segments
