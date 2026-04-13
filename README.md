@@ -104,6 +104,7 @@ The dashboard provides:
 - Risk distribution
 - Financial behavior insights
 - Customer segmentation
+
 ![Risk Distribution](visualizations/Risk count.jpeg)
   
 
