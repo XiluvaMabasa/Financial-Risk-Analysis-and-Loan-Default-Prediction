@@ -100,6 +100,11 @@ Top predictor of risk:
 These highlight the importance of loan structure and borrower stability in risk assessment.
 
 ### Dashboard
+The dashboard provides:
+- Risk distribution
+- Financial behavior insights
+- Customer segmentation
+  
 
 ### Conclusion
 This project demonstrates a full end-to-end financial analytics overflow:
