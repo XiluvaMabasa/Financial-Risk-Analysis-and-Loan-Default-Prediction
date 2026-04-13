@@ -1,30 +1,31 @@
 # Financial-Risk-Analysis-and-Loan-Default-Prediction
 
 ### Project Overview
-Financial institutions must assess borrower risk to minimize losses and improve lending decisions. Analysis of customer data to identify key drivers of credit risk and build machine learning models to predict the likelihood of loan default.
+This project focuses on building a machine learning model to predict loan default risk using customer financial and credit data. The goal is to help financial institutions make data-driven lending decisions, reduce credit losses, and improve risk management.
+
+In addition, an interactive Power BI dashboard was developed to visualize key risk indicators and borrower behavior patterns.
+
+### Business problem
+Financial institutions face significant losses when borrowers default on loans. The challenge is to:
+- Identify high-risk borrowers early
+- Improve loan approval decisions
+- Reduce financial exposure to defaults
+This project uses historical data to predict whether a borrower is likely to default.
 
 ### Objectives
-- Analyze patterns in customer financial behavior
-- Identify key factors influencing credit risk
-- Perform SQL-based analysis to extract business insights
-- Build an evaluate machine learning models to predict default risk
-
-### Tools & Technologies
-- Python (Pandas, NumPy, Scikit-learn)
-- SQL (SQLite) for querying and analysis
-- Power BI for data visualization
-- Machine Learning(Logistic Regression, Random Forest)
+- Clean and preprocess loan dataset
+- Perform exploratory data analysis (EDA)
+- Identify key drivers of loan default
+- Build predictive machine learning models
+- Evaluate model performance
+- Visualize insights using Power BI
 
 ### Dataset
-- German Credit Risk Dataset
-- Contains customer demographic and financial information such as:
-    - Age
-    - Job
-    - Housing
-    - Credit amount
-    - Loan duration
-    - Account status
-    - Risk (Good/Bad)
+The dataset contains borrower financial and loan-related attributes such as:
+- Credit amount
+- Loan duration
+- Risk status(default/non-default)
+- Customer credit behavior features
 
  ### Data Cleaning & Preparation
  - Handled missing values in account-related features
@@ -105,9 +106,14 @@ The dashboard provides:
 - Financial behavior insights
 - Customer segmentation
 
-![Risk Distribution](visualizations/Risk-count.jpeg)
-  
+![Risk distribution](visualizations/Risk-count.jpeg)
 
+### Business Recommendations
+- Tighten credit approval rules for high-risk segments
+- Reduced exposure on long-duration high-value loans
+- Implement early warning risk scoring systems
+- Use predictive models in loan approval pipelines
+  
 ### Conclusion
 This project demonstrates a full end-to-end financial analytics overflow:
 - Data cleaning and feature engineering
@@ -122,3 +128,4 @@ The results show that loan structure and repayment burden are key drivers of cre
 
 ### Author
 #### Xiluva Mabasa
+Aspiring Data Scientist | Data Analytics | Machine Learning
